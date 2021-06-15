@@ -10,11 +10,13 @@ Setup
 -----
 
 ::
+
     cd backend
     mkvirtualenv django-todo-react --python=python3
     pip install -r requirements/base.txt
 
 ::
+
     cd frontend
     npm install
 
@@ -22,14 +24,19 @@ Usage
 -----
 
 ::
+
     cd backend
     workon django-todo-react
     python manage.py runsever
 
 ::
+
     cd frontend
     npm start
 
+
+Screenshots
+-----------
 
 .. figure:: ./etc/screenshots/backend.png
 
