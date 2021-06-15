@@ -27,7 +27,7 @@ Usage
 
     cd backend
     workon django-todo-react
-    python manage.py runsever
+    python manage.py runserver
 
 ::
 
